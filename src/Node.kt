@@ -1,8 +1,5 @@
-open class Node {
-    var text: String? = null
-
+open class Node(var text: String) {
     open fun toHTML(): String {
-
-        return ""
+            return "<p>$text</p>"
     }
 }
